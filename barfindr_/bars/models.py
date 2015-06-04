@@ -13,5 +13,5 @@ class Bar(models.Model):
     hours_happy_end = models.TimeField()
 
     def __str__(self):
-    	return self.name
+        return self.name
 
